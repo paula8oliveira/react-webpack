@@ -2,10 +2,10 @@
 
 var React = require ('react')
 
-var Title = React.createClass({
+const App = React.createClass({
   render: function() {
-    return <h1>Título</h1>
+    return <h1>Aplicação</h1>
   }
 })
 
-export default Title
+export default App
