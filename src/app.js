@@ -1,9 +1,9 @@
 'use strict'
 
-var React = require ('react')
+var React = require('react')
 
 const App = React.createClass({
-  render: function() {
+  render: function () {
     return <h1>Aplicação</h1>
   }
 })
