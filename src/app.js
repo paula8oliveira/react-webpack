@@ -1,10 +1,21 @@
 'use strict'
 
-var React = require('react')
+import React from 'react'
+import Title from './title'
 
 const App = React.createClass({
+  getDefaultProps: function () {
+    return {
+      name: 'Desconhecido'
+    }
+  },
+
   render: function () {
-    return <h1>Aplicação</h1>
+    return (
+      <div className='container'>
+        <Title />
+      </div>
+    )
   }
 })
 
